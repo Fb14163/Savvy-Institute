@@ -1,7 +1,17 @@
 import React from 'react';
 import logo from '../../../images/Savvy Logo.png';
 
+
+import {
+    BrowserRouter as Router,
+    Routes,
+    Route,
+    Link,
+    useHistory
+} from 'react-router-dom';
+
 const Navbar = () => {
+
     return (
         <>
             <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -23,27 +33,23 @@ const Navbar = () => {
                             <li class="nav-item">
                                 <a class="nav-link" href="/#ielts">IELTS</a>
                             </li>
-                            <li className="nav-item">
-                                <a className="nav-link" href="#">Spoken</a>
-                            </li>
-                            <li className="nav-item dropdown">
-                                <a className="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                    OIETC
-                                </a>
-                                <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
-                                    <li><a className="dropdown-item" href="#">Non Proxy</a></li>
-                                    <li><a className="dropdown-item" href="#">Full Proxy</a></li>
-
-                                    <li className="nav-item">
-                                        <a className="nav-link" href="#">Contact-Us</a>
-                                    </li>
-
-                                </ul>
-                            </li>
                             <li class="nav-item">
-                                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Offers</a>
+                                <a class="nav-link" href="/#login">Sign in</a>
                             </li>
+
+                            <li className="nav-item">
+                                <a className="nav-link" href="#oietc">OIETC</a>
+                            </li>
+                            <li className="nav-item">
+                                <a className="nav-link" href="#oietc">Offers</a>
+                            </li>
+
+
+
                         </ul>
+
+
+
 
                     </div>
                 </div>

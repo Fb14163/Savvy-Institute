@@ -4,8 +4,8 @@ const ContactUs = () => {
     return (
         <>
             <div className='container'>
-                <form
-                    style={{ backgroundColor: "grey", border: "1px solid grey" }}
+                <form data-aos="zoom-out-up"
+                    style={{ backgroundColor: "grey", border: "none" }}
                     action="https://formspree.io/f/moqrjkdb"
                     method="POST"
                     enctype="multipart/form-data"

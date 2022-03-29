@@ -6,9 +6,10 @@ import Navbar from '../Header/Navbar/Navbar';
 import Ielts from '../Ielts/Ielts';
 import Oietc from '../Oietc/Oietc';
 import SetBooking from '../SetBooking/SetBooking';
-import bg from '../../images/shapes/shapes5.jpg';
+import bg from '../../images/shapes/shapes3.jpg';
 import IeltsDevision from '../Ielts/IeltsDevision';
 import Footer from '../Footer/Footer';
+import Login from '../Login/Login';
 
 const Home = () => {
     return (
@@ -21,6 +22,7 @@ const Home = () => {
                 <IeltsDevision></IeltsDevision>
                 <Oietc></Oietc>
                 <SetBooking></SetBooking>
+                <Login></Login>
                 <Footer></Footer>
 
 

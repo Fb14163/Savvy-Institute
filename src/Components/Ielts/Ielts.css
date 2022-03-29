@@ -13,3 +13,7 @@
     border: none;
 
 }
+
+.btn-ged:hover{
+    background-color: aqua;
+}
